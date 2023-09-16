@@ -1,0 +1,168 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h1 a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+.articulo {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* contenido principal (main) */
+main {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+  }
+  
+  /* título del artículo (h2) */
+  main h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  /* párrafo de contenido */
+  main p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+  }
+  
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/* contenedor principal */
+div {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* títulos (h2) */
+  h2 {
+    color: #333;
+    font-size: 18px;
+    margin: 5px 0;
+  }
+  
+  /* botones */
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    margin-right: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  /* efecto para los botones */
+  button:hover {
+    background-color: #0056b3;
+  }
+
+  
+  /* Estilos responsivos para léfono*/
+@media screen and (max-width: 768px) {
+    /* Estilos para la barra de navegación */
+    .navbar {
+      padding: 10px 0;
+    }
+  
+    /* logotipo en la barra de navegación */
+    .navbar img {
+      max-width: 80px; /* Reduce el tamaño del logotipo */
+    }
+  
+    /*lista desordenada (ul) de la barra de navegación */
+    .nav-list {
+      flex-direction: column; /* Apila los elementos */
+      text-align: center; 
+    }
+  
+    /* elementos de la lista (li) en la barra de navegación */
+    .nav-item {
+      margin: 10px 0;
+    }
+  
+    /*contenido principal */
+    main {
+      padding: 15px; 
+  
+
+    /* título del artículo */
+    main h2{
+      font-size: 20px; 
+    }
+  
+    /* contenido del artículo */
+    main p {
+      font-size: 14px; 
+    }
+  
+    /* pie de página */
+    footer {
+      padding: 10px;
+    }
+  }
+}

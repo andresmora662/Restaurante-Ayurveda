@@ -1,0 +1,192 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color: rgb(0, 0, 0);
+  background-color: #c9ffa9cb;
+}
+
+
+/* _________________________ */
+/* barra de navegación */
+.navbar {
+  background-color: #000000;
+  padding: 30px 0;
+  box-shadow: 0 10px 6px rgba(0, 0, 0, 0.062);
+
+}
+
+nav img{
+  height: 70px;
+  width: 70px;
+  margin: 0 400px 0 0;
+
+}
+
+/* lista desordenada (ul) */
+.nav-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+/* elementos de la lista (li) */
+.nav-item {
+  margin: 25px 0px 0px 0px;
+  position: relative;
+  height: 20px;
+
+}
+
+/* enlaces (a) */
+.nav-item a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight:lighter;
+  font-size: 20px;
+  transition: color 0.3s;
+  padding: 3px 70px;
+  border-radius: 5px;
+  border: 1px solid transparent;
+}
+
+/* Efectos para los enlaces (a) */
+.nav-item a:hover {
+  color: #ccc;
+  border-color: #ccc;
+  transition: 0.3s;
+}
+
+/* __________FORMULARIO___________________ */
+
+/* Estilos generales */
+.contenedor-formulario-completo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f2f2f2;
+}
+
+.contenedor-formulario {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px 40px 20px 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width: 300px;
+  text-align: center;
+}
+
+/* Estilos para el título "Reservar" */
+.contenedor-formulario h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Estilos para los campos de entrada y etiquetas */
+.contenedor-formulario h1,
+.contenedor-formulario input[type="text"],
+.contenedor-formulario input[type="date"],
+.contenedor-formulario button {
+  margin-bottom: 10px;
+}
+
+.contenedor-formulario input[type="text"],
+.contenedor-formulario input[type="date"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* botón "Enviar" */
+.contenedor-formulario button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.contenedor-formulario button:hover {
+  background-color: #0056b3;
+}
+
+/* sección de resultados (items de usuario) */
+
+.contenedor-formulario > div {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.contenedor-formulario h2 {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.contenedor-formulario button {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  margin-top: 5px;
+}
+
+.contenedor-formulario button:hover {
+  background-color: #c82333;
+}
+
+
+/* _____________ */
+
+/* contenedor de edición*/
+div {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  margin: 0px 0px 20px 20px;
+}
+
+/* Estilos para los títulos (h1) */
+h1 {
+  color: #333;
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+/* Estilos para los inputs */
+input[type="text"],
+input[type="date"] {
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+/* Estilos para el botón */
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Efectos para el botón */
+button:hover {
+  background-color: #0056b3;
+}
+
+
